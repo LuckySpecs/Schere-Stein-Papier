@@ -4,10 +4,9 @@ apply plugin: "java"
 
 version = 0.1
 
-configurations {  xjc  }
-
 tasks.withType(JavaCompile) {
 	options.encoding = 'cp1252'
+ 	options.debug = true 
 }
 
 sourceSets {
